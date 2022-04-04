@@ -24,7 +24,7 @@ write.csv(Employee, "c:\\Users\\Akshay\\OneDrive\\Desktop\\VS_Code\\R Script\\bd
 empcsv <- read.csv("c:\\Users\\Akshay\\OneDrive\\Desktop\\VS_Code\\R Script\\bdtp2.csv")
 print(empcsv)
 
-newrow <- data.frame(4, 'ajji', '29/03/2006', 'cybersec', 'network engineer')
+newrow <- data.frame(3, 'c', '4/3/2022', 'mech', 'technician')
 write.table(newrow, file = "c:\\Users\\Akshay\\OneDrive\\Desktop\\VS_Code\\R Script\\bdtp2.csv", sep = ","
             , append = TRUE, col.names = FALSE, row.names = FALSE)
 
