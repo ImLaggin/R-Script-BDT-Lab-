@@ -19,13 +19,13 @@ Employee <- data.frame(EmpID, EmpName, DOJ, Dept, Desig)
 print("The employee details are as follows : ")
 print(Employee)
 
-write.csv(Employee, "C:\\Users\\pradh\\Downloads\\bdtp2.csv", row.names = FALSE)
+write.csv(Employee, "c:\\Users\\Akshay\\OneDrive\\Desktop\\VS_Code\\R Script\\2.r", row.names = FALSE)
 
-empcsv <- read.csv("C:\\Users\\pradh\\Downloads\\bdtp2.csv")
+empcsv <- read.csv("c:\\Users\\Akshay\\OneDrive\\Desktop\\VS_Code\\R Script\\2.r")
 print(empcsv)
 
 newrow <- data.frame(4, 'ajji', '29/03/2006', 'cybersec', 'network engineer')
-write.table(newrow, file = "C:\\Users\\pradh\\Downloads\\bdtp2.csv", sep = ","
+write.table(newrow, file = "c:\\Users\\Akshay\\OneDrive\\Desktop\\VS_Code\\R Script\\2.r", sep = ","
             , append = TRUE, col.names = FALSE, row.names = FALSE)
 
 print(empcsv)
